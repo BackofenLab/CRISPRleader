@@ -21,8 +21,8 @@ The following dependencies should be present in the respective folder "bin" for 
  - hmmsearch executable file
  - mview executable file
  - Mafft folder
- - needleall executable file	(please install EMBOSS 6.3.1 or above)
- ** please note that if 'needleall' does not work, please copy the 'needleall' executable file from the EMBOSS directory  to the CRISPRleader/bin folder
+ - needleall executable file	(please install EMBOSS 6.3.1 or above).
+ Please note that if 'needleall' does not work, please copy the 'needleall' executable file from the EMBOSS directory  to the CRISPRleader/bin folder
  
 
 
