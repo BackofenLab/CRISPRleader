@@ -1,5 +1,5 @@
 # CRISPRleader version 1.0.3
- **CRISPRleader - An efficient tool to determining CRISPR leader boundaries
+ **CRISPRleader - An efficient tool to determining CRISPR leader boundaries**
 
 CRISPRleader takes a complete genome or draft genome as input and selects all possible CRISPR arrays in the correct orientation, and annotates the CRISPR leader boundaries. 
 
@@ -9,3 +9,14 @@ It will check if executable files can be run and change the path in the mview fi
 
 # To execute the program, please open your terminal console.
 
+## Contribution
+
+Feel free to contribute to this project by writing 
+[Issues](https://github.com/BackofenLab/CRISPRleader/issues) 
+with feature requests, bug reports, or just contact messages.
+
+## Citation
+If you use CRISPRleader, please cite our article
+- [CRISPRleader: Characterizing leader sequences of CRISPR loci ](https://doi.org/10.1093/bioinformatics/btw454)
+  Omer S. Alkhnbashi, Shiraz A. Shah, Roger A. Garrett, Sita J. Saunders, Fabrizio Costa, Rolf Backofen , 
+  Bioinformatics, 32(17), i576-i585, 2016, DOI(10.1093/bioinformatics/btw454).
