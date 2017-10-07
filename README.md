@@ -41,8 +41,18 @@ The following dependencies should be present in the respective folders for the s
     For Repeat and Leader DNA sequances are expected as input Organism type 'a' for archea and 'b' for bacteria
     
     Example: python CRISPRleader.py r_l_o GAAATCAAAAGATAGTTGAAAC       AAGAATGGCGTTGGGCCTCGGCGTTTTCTCAACCTCCACGTTGCTGTGCTTGCGAAGAATGGCGGCCGCCCACCCCGAAAAGAGACATATATGAATGTAAAACGCGGCAGAAAAGCGTCCACCGAAGA    TACAAAAAACCTACAAAAAACTTAAAAACCCACAAAAACCAACAAAACCAGCCCCA a
+    
 	
-  - 
+  - Input with Accession number. Run the program by giving the following command:
+    CRISPRleader.py d_f_o "acc_num" "organism"
+	Provides an option to enter desired accession number and the organism type.
+	Corresponding fasta file will be downloaded from NCBI
+	Organism type 'a' for archea and 'b' for bacteria
+	
+
+	Example:
+	python CRISPRleader.py d_f_o CP003098 a
+
 
 ## Contribution
 
