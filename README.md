@@ -33,7 +33,16 @@ The following dependencies should be present in the respective folders for the s
   - clustInfos.tab
   - DR_Repeat_model
  
+**The program execution can be carried out with three input categories as given below:**
 
+  - Input with Repeat, Leader and the organism type. Execution is proceed as follows:
+     CRISPRleader.py r_l_o  <repeat> <leader> <organism> . 
+  
+    For Repeat and Leader DNA sequances are expected as input Organism type 'a' for archea and 'b' for bacteria
+    
+    Example: python CRISPRleader.py r_l_o GAAATCAAAAGATAGTTGAAAC       AAGAATGGCGTTGGGCCTCGGCGTTTTCTCAACCTCCACGTTGCTGTGCTTGCGAAGAATGGCGGCCGCCCACCCCGAAAAGAGACATATATGAATGTAAAACGCGGCAGAAAAGCGTCCACCGAAGA    TACAAAAAACCTACAAAAAACTTAAAAACCCACAAAAACCAACAAAACCAGCCCCA a
+	
+  - 
 
 ## Contribution
 
