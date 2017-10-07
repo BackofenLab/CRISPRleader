@@ -49,6 +49,8 @@ The following dependencies should be present in the respective folders for the s
   
   
     CRISPRleader.py d_f_o "acc_num" "organism"
+    
+    
 	Provides an option to enter desired accession number and the organism type.
 	Corresponding fasta file will be downloaded from NCBI
 	Organism type 'a' for archea and 'b' for bacteria
