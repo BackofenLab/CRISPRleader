@@ -14,7 +14,7 @@ It will check if executable files can be run and change the path in the mview fi
 For example: pip install numpy --user OR  sudo pip install numpy
 
 **Dependencies**
-The following dependencies should be present in the respective folders for the successful execution of the program
+The following dependencies should be present in the respective folders for the successful execution of the program:
 
 - [bin folder]
   - CRT1.2-CLI.jar
