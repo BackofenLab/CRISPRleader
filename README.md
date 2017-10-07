@@ -10,7 +10,7 @@ It will check if executable files can be run and change the path in the mview fi
 **To execute the program, please open your terminal console.**
 
 **Requirements**
-- Python 2.7. Please install the corresponding libraries (Docopt, Numpy, Urllib3 and Biopython). 
+- Python 2.7. Additionally, please install the corresponding libraries(Docopt, Numpy, Urllib3 and Biopython). 
 For example: pip install numpy --user OR  sudo pip install numpy
 
 ## Contribution
