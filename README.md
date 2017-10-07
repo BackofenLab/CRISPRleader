@@ -7,11 +7,24 @@ CRISPRleader takes a complete genome or draft genome as input and selects all po
 **Please run test_bin.py script before executing the main program.**
 It will check if executable files can be run and change the path in the mview file to the correct one.
 
-**To execute the program, please open your terminal console.**
+**To execute the program, please open your terminal console.** Make sure "CRISPRleader.py" file and "bin","lib" and "Dataset" folder exists in your current working directory.
 
 **Requirements**
 - Python 2.7. Additionally, please install the corresponding libraries(Docopt, Numpy, Urllib3 and Biopython). 
 For example: pip install numpy --user OR  sudo pip install numpy
+
+**Dependencies**
+The following dependencies should be present in the respective folder "bin" for the successful execution of the program
+ - CRT1.2-CLI.jar
+ - EDeN executable file
+ - prodigal executable file
+ - hmmsearch executable file
+ - mview executable file
+ - Mafft folder
+ - needleall executable file	(please install EMBOSS 6.3.1 or above)
+ ** please note that if 'needleall' does not work, please copy the 'needleall' executable file from the EMBOSS directory  to the CRISPRleader/bin folder
+ 
+
 
 ## Contribution
 
