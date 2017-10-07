@@ -14,15 +14,24 @@ It will check if executable files can be run and change the path in the mview fi
 For example: pip install numpy --user OR  sudo pip install numpy
 
 **Dependencies**
-The following dependencies should be present in the respective folder "bin" for the successful execution of the program
- - CRT1.2-CLI.jar
- - EDeN executable file
- - prodigal executable file
- - hmmsearch executable file
- - mview executable file
- - Mafft folder
- - needleall executable file	(please install EMBOSS 6.3.1 or above).
- Please note that if 'needleall' does not work, please copy the 'needleall' executable file from the EMBOSS directory  to the CRISPRleader/bin folder
+The following dependencies should be present in the respective folders for the successful execution of the program
+
+- [bin folder]
+  - CRT1.2-CLI.jar
+  - EDeN executable file
+  - prodigal executable file
+  - hmmsearch executable file
+  - mview executable file
+  - Mafft folder
+  - needleall executable file	(please install EMBOSS 6.3.1 or above). Please note that if 'needleall' does not work, please copy  the 'needleall' executable file from the EMBOSS directory  to the    CRISPRleader/bin folder
+  
+- [lib folder]
+  - Archaea_Final_Repeat_dataset.fa
+  - Archaea_LeaderClusters_mean_std.tab
+  - Bacteria_Final_Repeat_dataset.fa
+  - Bacteria_LeaderClusters_mean_std.tab
+  - clustInfos.tab
+  - DR_Repeat_model
  
 
 
