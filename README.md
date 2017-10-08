@@ -40,7 +40,7 @@ The following dependencies should be present in the respective folders for the s
   
      CRISPRleader.py r_l_o  "repeat" "leader" "organism" . 
   
-    For Repeat and Leader DNA sequances are expected as input Organism type 'a' for archea and 'b' for bacteria
+    For Repeat and Leader DNA sequances are expected as input Organism type "a" for archea and "b" for bacteria
     
     Example: python CRISPRleader.py r_l_o GAAATCAAAAGATAGTTGAAAC       AAGAATGGCGTTGGGCCTCGGCGTTTTCTCAACCTCCACGTTGCTGTGCTTGCGAAGAATGGCGGCCGCCCACCCCGAAAAGAGACATATATGAATGTAAAACGCGGCAGAAAAGCGTCCACCGAAGA    TACAAAAAACCTACAAAAAACTTAAAAACCCACAAAAACCAACAAAACCAGCCCCA a
     
@@ -60,6 +60,19 @@ The following dependencies should be present in the respective folders for the s
 	python CRISPRleader.py d_f_o CP003098 a
 
 
+- Input with a file which contains Genome in fasta format. Execute by:
+
+CRISPRleader.py f_c_o "file" "completeness" "organism"
+
+PPath to the file, completeness and the organism type should be provided Input completeness: "COMPLETE" or "PARTIAL" respectivelly Organism type 'a' for archea and 'b' for bacteria
+
+Example:
+python CRISPRleader.py f_c_o NC017453.fa partial a
+
+
+  **In all the above executions, the user should provide the organism type. -o provides an option to choose Archea "a" or Bacteria "b"**
+
+**The ouput files are saved in a folder with name "Output" in the current working directory**
 ## Contribution
 
 Feel free to contribute to this project by writing 
