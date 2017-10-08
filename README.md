@@ -64,7 +64,7 @@ The following dependencies should be present in the respective folders for the s
 
 CRISPRleader.py f_c_o "file" "completeness" "organism"
 
-PPath to the file, completeness and the organism type should be provided Input completeness: "COMPLETE" or "PARTIAL" respectivelly Organism type 'a' for archea and 'b' for bacteria
+Path to the file, completeness and the organism type should be provided Input completeness: "COMPLETE" or "PARTIAL" respectivelly Organism type 'a' for archea and 'b' for bacteria
 
 Example:
 python CRISPRleader.py f_c_o NC017453.fa partial a
