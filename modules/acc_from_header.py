@@ -7,4 +7,3 @@ def acc_from_header(header):
 	else:
 		accession  = (header.split(' ')[0]).split(".")[0][1::]
 		return accession
-		
